@@ -1,6 +1,6 @@
 /*
 Enter your query here.
 */
-SELECT ROUND(AVG(SALARY)-AVG(replace(replace(Salary,'0',' '),' ','')))+1  from EMPLOYEES ;
+SELECT CEIL(AVG(SALARY)-AVG(replace(replace(Salary,'0',' '),' ','')))  from EMPLOYEES ;
 
 -- SELECT replace(replace(Salary,'0',' '),' ','')) from EMPLOYEES; -- OMMITING THE SPACES AND CONCATENATE
