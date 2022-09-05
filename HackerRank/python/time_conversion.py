@@ -17,9 +17,9 @@ def timeConversion(s):
         # print("i returned 3")
         form=(int(form)+12)
         form=str(form)
-        print(form)
+        # print(form)
         return form + s[2:-2]
     elif(indi=='P' and form=='12'):
         # print("i returned 4")
         return ans
-print(timeConversion("12:00:00AM"))
+print(timeConversion("01:00:00PM"))
