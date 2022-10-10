@@ -8,7 +8,7 @@ int main(void) {
 	scanf("%d",&total);
 	for(int i=0;i<total;i++){
 	    scanf("%d%d",&a,&b);
-	    printf("%d\n",(a>=b)?a:b);
+	    printf("%d\n",(a>=b)?a:b); 
 	}
 	return 0;
 }
