@@ -1,4 +1,4 @@
-// # https://practice.geeksforgeeks.org/problems/right-triangle/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pattern_2
+//https://practice.geeksforgeeks.org/problems/triangle-number/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pattern_3
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 
@@ -11,7 +11,7 @@ class Solution {
         // code here
         for(int i=0;i<n;i++){
             for(int j=0;j<=i;j++){
-                cout<<"* ";
+                cout<<j+1<<" ";
             }
             cout<<endl;
         }
