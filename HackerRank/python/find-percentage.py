@@ -9,4 +9,5 @@ if __name__ == '__main__':
         
     # print(student_marks)
     s=(student_marks[query_name])
-    print(format(45.5296854,".2f")) #! concept
+    print(format(sum(s)/len(s),".2f"))#! concept
+    # Ques: https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
