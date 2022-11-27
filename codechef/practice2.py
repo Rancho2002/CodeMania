@@ -2,6 +2,7 @@
 a=int(input())
 b=input()
 c=list(b.strip())
+print(c)
 new=[]
 for i in range(len(c)):
     if(c.count(c[i])>1):
