@@ -7,4 +7,4 @@ class Solution:
             n=int(n/10)
             su=su+a
             pro=pro*a
-        return pro-sus
+        return pro-su

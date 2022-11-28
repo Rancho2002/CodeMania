@@ -33,3 +33,10 @@ class Solution:
                 print("*",end="")
             print()
 
+def pattern2(n):
+    for i in range(n):
+            for k in range(2*n-1,0,-1):
+                print("*",end="")
+            for j in range(n-1,i,-1):
+                print(" ",end="")
+            print()
