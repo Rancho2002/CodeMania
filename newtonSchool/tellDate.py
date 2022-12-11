@@ -18,3 +18,12 @@ if(yr>=2022):
         print("After")
 else:
     print("Before")
+
+# from datetime import datetime
+# s = input()
+# date = datetime.strptime(s, "%Y/%m/%d")
+# june_20_2022 = datetime(2022, 6, 20)
+# if date < june_20_2022:
+#     print("Before")
+# else:
+#     print("After")
