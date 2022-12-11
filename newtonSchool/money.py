@@ -1,3 +1,4 @@
+# https://my.newtonschool.co/playground/code/tfzuufcxzt0i
 init=0
 for i in range(int(input())):
     a=input()

@@ -1,4 +1,4 @@
-# Your code here
+# Your code here : https://my.newtonschool.co/playground/code/cpg0ah494hgm
 wish=list(map(int,input().split()))
 N=wish[0] #pencil stash
 stash=[]
