@@ -1,2 +1,2 @@
-a,b,c=input().split()
-print("a=",a,"b=",b,"c=",c)
+import sys
+print(sys.maxsize)

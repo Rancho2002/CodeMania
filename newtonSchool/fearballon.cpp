@@ -12,6 +12,8 @@ int main()
         cin>>r;
         v.push_back(r);
     }
+    // for(int i=0; i < v.size(); i++)
+    //     std::cout << v.at(i) << ' ';
     if (n==1)
     {
         cout<<abs(v[0])<<endl;
