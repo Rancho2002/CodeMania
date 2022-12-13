@@ -1,3 +1,4 @@
+# https://my.newtonschool.co/playground/code/v0jkor49zn34
 import sys
 a,b=map(int,input().split())
 arr=list(map(int,input().split()))
