@@ -1,19 +1,21 @@
 #include <stdio.h>
-
+#include <math.h>
 int main(){
-    unsigned long int sum=0;
-    int a;
-    scanf("%d",&a);
-    int arr[a];
-    for(int i=0;i<a;i++){
+
+    int n;
+    int mod=pow(10,9)+7;
+    scanf("%d",&n);
+    int arr[n];
+    unsigned long int ans=0;
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<a-1;i++){
-        for(int j=1;j<a;j++){
-            if(i<j && i!=j)
-            sum+=arr[i]*arr[j];
-        }
+    int sum=arr[n-1];
+    for(int i=n-2;i<=0;i--){
+        ans+=(ans+(sum*arr[i]));
+        sum=sum+arr[i];
+
     }
-    printf("%ul",sum);
+    printf("%d",ans%mod);
     return 0;
 }
