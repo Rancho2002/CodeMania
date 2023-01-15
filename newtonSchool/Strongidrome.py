@@ -1,32 +1,14 @@
-# Your code here
-def isPalindrome(s):
-    for i in range(len(s)//2):
-        if(s[i]==s[-1+i]):
-            return True
-    return False
+def isPalindrome(s,l,r):
+    while(l<r):
+        if(s[l]!=s[r]):
+            return False
+        l+=1
+        r-=1
+    return True
 
-def isN_1(s):
-    n=len(s)
-    s=s[:n//2]
-    for i in range(len(s)):
-        if(s[i]==s[-1+i]):
-            return True
-    return False
-
-def isN_3(s):
-    n=len(s)
-    s=s[(n+3-1)//2:]
-    for i in range(len(s)):
-        if(s[i]==s[-1+i]):
-            return True
-    return False
-
-
-n=input()
-# print(isPalindrome(n))
-# print(isN_1(n))
-# print(isN_3(n))
-if(isPalindrome(n) and isN_1(n) and isN_3(n)):
+s=input()
+n=len(s)
+if(isPalindrome(s,0,n-1) and isPalindrome(s,0,(n-1)//2-1) and isPalindrome(s,(n+3)//2-1,n-1)):
     print("Yes")
 else:
     print("No")
