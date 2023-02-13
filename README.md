@@ -1,7 +1,7 @@
 # CodeMania
 Solution of various problems accross different platforms
 * HackerRank
-* Newton School
+* <a href="/newtonSchool">Newton School</a>
 * CodeChef
 * gfg
 * leetcode
