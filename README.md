@@ -1,8 +1,9 @@
 # CodeMania
 Solution of various problems accross different platforms
-* HackerRank
+* <a href="/HackerRank">HackerRank</a>
 * <a href="/newtonSchool">Newton School</a>
 * CodeChef
 * gfg
+ * Tshirt 
 * leetcode
 
