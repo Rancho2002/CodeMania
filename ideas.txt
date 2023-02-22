@@ -1,0 +1,3 @@
+zfill
+bin
+ans=float("inf")
