@@ -1,3 +1,5 @@
-zfill
+//zfill
 bin
 ans=float("inf")
+reduce
+enumerate
