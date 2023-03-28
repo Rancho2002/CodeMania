@@ -1,18 +1,12 @@
-string = "The other day I went over there"
-string=string.lower()
-count = string.count("the")
-print(count)
-
 import re
-
-pattern=re.compile(r"the")
+# pattern=re.compile(r"is*")
+# pattern=re.compile(r"is+")
+# pattern=re.compile(r"is{2}")
+pattern=re.compile(r"ve+|is{2}")
+string="Hi this iss me. I love to code. Teaching is my hobby and love to do."
 matches=re.finditer(pattern,string)
-string = "The other day I went over there"
-string=string.lower()
-
-l=[]
 for match in matches:
-    l.append(match.span())
-print(l)
-print(l[1][0])
-#changing to check
+    print(match)
+
+
+

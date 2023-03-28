@@ -24,3 +24,15 @@ class Solution {
         }
     }
 };
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        Solution ob;
+        ob.printTriangle(n);
+    }
+    return 0;
+}

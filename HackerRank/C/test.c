@@ -1,16 +1,19 @@
 #include <stdio.h>
-int main() {
-// int x=19, y=23;
-// int j=(x++,--y);
-// y+=3;
-// printf("%d", j+y);
 
-int x = -5, y = 8;
+int main()
+{
+    // int x=19, y=23;
+    // int j=(x++,--y);
+    // y+=3;
+    // printf("%d", j+y);
 
-x = x + y - (y = x);  
+    int x = -5, y = 8;
 
-printf("%d", x * y);
+    x = x + y - (y = x);
 
-// printf("%f",10>>4);
-return 0;
+    printf("%d\n", x * y);
+    
+
+    // printf("%f",10>>4);
+    return 0;
 }

@@ -5,4 +5,4 @@ def print_formatted(number):
         l=len("{0:b}".format(number))
         print("{0:{width}d} {0:{width}o} {0:{width}X} {0:{width}b}".format(i,width=l))
 
-print_formatted(4)
+print_formatted(17)
