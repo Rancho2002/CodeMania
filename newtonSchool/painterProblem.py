@@ -1,4 +1,4 @@
-def isPossible(boards:list,m:int,k:int):
+def isPossible(boards:list,m:int,k:int)->int:
     temp=0
     student=1
     for i in boards: 
