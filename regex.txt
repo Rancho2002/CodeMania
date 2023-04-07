@@ -12,6 +12,7 @@ $ Ends with
 
 
 Special Sequences
+\1 match the first group
 \A Returns a match if the specified characters are at the beginning of the string
 \b Returns a match where the specified characters are at the beginning or at the end of a word r” ain\b.”
 \B Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word
