@@ -20,6 +20,8 @@ class Solution:
 
         return 1
     
+
+    
 '''
     # Check if password length is between 8 and 15 characters
     if len(password) < 8 or len(password) > 15:
