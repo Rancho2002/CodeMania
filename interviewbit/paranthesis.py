@@ -13,12 +13,10 @@ class Solution:
                     stack.pop()
                 elif A[i] == "]" and stack[-1] == "[":
                     stack.pop()
+                else:
+                    return 0
             else:
                 return 0
-        if not stack:
+        if len(stack) == 0:
             return 1
         return 0
-
-
-a = Solution()
-print(a.isValid("((((([{()}[]]]{{{[]}}})))))"))
