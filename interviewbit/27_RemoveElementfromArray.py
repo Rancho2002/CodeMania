@@ -12,3 +12,4 @@ class Solution:
             i+=1
             
         return j
+    
