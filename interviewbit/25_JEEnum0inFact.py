@@ -10,3 +10,6 @@ class Solution:
             c+= A//x
             x=x*5
         return c
+
+a=Solution()
+print(a.trailingZeroes(5))
